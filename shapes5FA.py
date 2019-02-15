@@ -21,5 +21,12 @@ gOval = Oval(Point(790, 790), Point(600, 650))
 gOval.setFill(color_rgb(20,220,20))
 gOval.draw(shapesWin)
 
+#fourth object
+puCircle = Circle(Point(75, 100), 50)
+puCircle.setFill(color_rgb(220,20,220))
+puCircle.draw(shapesWin)
+
+
+
 shapesWin.getMouse()
 shapesWin.close()

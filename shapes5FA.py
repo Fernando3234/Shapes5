@@ -1,6 +1,8 @@
 #importing graphics pacakage
 from graphics import *
 
+
+
 #setting window size and window coordinates
 shapesWin =GraphWin("Multiple Shapes", 800, 800)
 shapesWin.setCoords(0, 0, 800, 800)
@@ -26,6 +28,10 @@ puCircle = Circle(Point(75, 100), 50)
 puCircle.setFill(color_rgb(220,20,220))
 puCircle.draw(shapesWin)
 
+#fifth Object
+blDiamond = Polygon(Point(350, 400), Point(400, 450), Point (450, 400), Point(400,350))
+blDiamond.setFill(color_rgb(20,30,20))
+blDiamond.draw(shapesWin) 
 
 
 shapesWin.getMouse()
